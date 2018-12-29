@@ -4,7 +4,9 @@
   "main": "index.js",
   "author": "hvu",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "webpack"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wpq0/boilerplate.git"
@@ -14,5 +16,9 @@
     "url": "https://github.com/wpq0/boilerplate/issues"
   },
   "homepage": "https://github.com/wpq0/boilerplate#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "webpack": "4.28.3",
+    "webpack-cli": "3.1.2"
+  }
 }
