@@ -2,8 +2,7 @@ import React from 'react';
 import { hot } from 'react-hot-loader/root';
 import '@babel/polyfill';
 
-const Warning = React.lazy(() => import('./Warning')); // ;
-const x = 1;
+const Warning = React.lazy(() => import('./Warning'));
 class App extends React.Component {
   state = {
     count: 0
