@@ -4,7 +4,15 @@
   "main": "index.js",
   "author": "hvu",
   "license": "MIT",
-  "scripts": {
-    
-  }
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wpq0/boilerplate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/wpq0/boilerplate/issues"
+  },
+  "homepage": "https://github.com/wpq0/boilerplate#readme",
+  "description": ""
 }
