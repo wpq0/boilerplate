@@ -1,3 +1,7 @@
-import { Greeting } from "./messages";
+import React from 'react';
+import ReactDom from 'react-dom';
+import App from './App';
+import '@babel/polyfill';
+import './style.css';
 
-console.log(Greeting);
+ReactDom.render(<App />, document.getElementById('app'));
